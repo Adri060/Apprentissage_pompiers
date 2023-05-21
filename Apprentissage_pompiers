@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leçons pour Pompiers</title>
+  <style>
+    /* Ajoutez votre CSS personnalisé ici pour styliser votre site */
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Ajoutez votre en-tête avec un titre et une navigation ici -->
+  </header>
+
+  <main>
+    <section>
+      <h1>Bienvenue sur les Leçons pour Pompiers</h1>
+      <p>Vous trouverez ici des conseils et des données importantes destinés aux pompiers.</p>
+    </section>
+
+    <section>
+      <h2>Leçon 1 : [Titre de la leçon]</h2>
+      <p>Contenu de la leçon 1.</p>
+    </section>
+
+    <section>
+      <h2>Leçon 2 : [Titre de la leçon]</h2>
+      <p>Contenu de la leçon 2.</p>
+    </section>
+
+    <!-- Ajoutez d'autres sections pour chaque leçon que vous souhaitez inclure -->
+
+    <section>
+      <h2>Contactez-nous</h2>
+      <p>N'hésitez pas à nous contacter pour toute question ou suggestion.</p>
+      <form>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <!-- Ajoutez votre pied de page avec des informations supplémentaires ici -->
+  </footer>
+</body>
+</html>
